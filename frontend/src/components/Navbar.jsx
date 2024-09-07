@@ -5,7 +5,7 @@ import {HashLink} from "react-router-hash-link"
 function Navbar() {
 	return (
 		<>
-			<div className="flex justify-between mx-[5vw] items-center pt-[5vh] pb-[2vh]">
+			<div className="flex justify-between mx-[5vw] items-center pt-[5vh] pb-[2vh]" id="navbar">
 				<Link to="/" className="text-5xl font-inter font-bold bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
 					StampDeck
 				</Link>
