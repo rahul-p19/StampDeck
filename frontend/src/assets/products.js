@@ -40,16 +40,6 @@ const products = [
         "brochure": "https://postagestamps.gov.in/Pdf/2024/Brochure-Wazir%20Mohd%20Hakla%20Poonchi.pdf"
     },
     {
-        "name": "100th Birth Anniversary of Mukesh",
-        "releaseDate": "24.07.2024",
-        "denomination": "3000 p",
-        "quantity": "1,11,000",
-        "printer": "Security Printing Press, Hyderabad",
-        "stampImage": "https://postagestamps.gov.in/Uploads/2024/Mukesh%20Stamp.jpg",
-        "fdcImage": "https://postagestamps.gov.in/Uploads/2024/MUKESH%20FDC%20.jpg",
-        "brochure": "https://postagestamps.gov.in/Pdf/2024/Brochure-Birth%20Anniversary%20of%20Mukesh%20(1).pdf"
-    },
-    {
         "name": "Siddharoodha Swami",
         "releaseDate": "06.07.2024",
         "denomination": "500 p",
@@ -202,7 +192,7 @@ const products = [
     {
         "name": "200 Years of Indian Origin Tamils in Sri Lanka",
         "releaseDate": "30.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301850",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/200%20Years%20of%20Indian%20Origin%20Tamils%20in%20Sri%20Lanka_Stamp.jpg",
@@ -212,7 +202,7 @@ const products = [
     {
         "name": "Diamond Jubilee of Sashastra Seema Bal",
         "releaseDate": "29.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "307100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Diamond%20Jubilee%20of%20Sashastra%20Seema%20Bal_Stamp.jpg",
@@ -222,7 +212,7 @@ const products = [
     {
         "name": "125 Years of Ramakrishna Mission",
         "releaseDate": "27.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/125%20Years%20of%20Ramakrishna%20Mission_Stamp.jpg",
@@ -232,7 +222,7 @@ const products = [
     {
         "name": "50 Years Pandit Jasraj Pt. Motiram Pt. Maniram Sangeet Samaroha",
         "releaseDate": "27.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "207300",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/50%20Years%20Pandit%20Jasraj%20Pt.%20Motiram%20Pt.%20Maniram%20Sangeet%20Samaroha_Stamp.jpg",
@@ -242,7 +232,7 @@ const products = [
     {
         "name": "Khartargachha Millennium",
         "releaseDate": "26.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303900",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Khartargachha%20Millennium_Stamp.jpg",
@@ -252,7 +242,7 @@ const products = [
     {
         "name": "Acharya Sushil Kumar",
         "releaseDate": "24.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "421220",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Acharya%20Sushil%20Kumar_Stamp.jpg",
@@ -262,7 +252,7 @@ const products = [
     {
         "name": "Rani Abbakka Devi",
         "releaseDate": "15.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303200",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Rani%20Abbakka%20Devi_Stamp.jpg",
@@ -272,7 +262,7 @@ const products = [
     {
         "name": "Celebrating India and Oman's Friendship",
         "releaseDate": "15.12.2023",
-        "denomination": "2500p (2) Rs. 50 for Souvenir Sheet",
+        "denomination": "2500 p (2) Rs. 50 for Souvenir Sheet",
         "quantity": "111500",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Celebrating%20India%20and%20Oman%20Friendship_Stamp.jpg",
@@ -282,7 +272,7 @@ const products = [
     {
         "name": "India Art Architecture Design Biennale 2023",
         "releaseDate": "08.12.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/India%20Art%20Architecture%20Design%20Biennale%202023_Stamp.jpg",
@@ -362,7 +352,7 @@ const products = [
     {
         "name": "50 years of establishment of Diplomatic Relations between India and Vietnam",
         "releaseDate": "16.10.2023",
-        "denomination": "2500p & 500p",
+        "denomination": "2500 p & 500 p",
         "quantity": "112000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/50%20years%20of%20establishment%20of%20Diplomatic%20Relations%20between%20India%20and%20Vietnam%20STAMP.jpg",
@@ -372,7 +362,7 @@ const products = [
     {
         "name": "Hemachandra Vikramaditya",
         "releaseDate": "07.10.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Hemachandra_Vikramaditya_STAMP.jpg",
@@ -382,7 +372,7 @@ const products = [
     {
         "name": "500th Birth Anniversary of Rani Durgavati",
         "releaseDate": "05.10.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/500th_Birthday_Rani_Durgavati_STAMP.jpg",
@@ -392,7 +382,7 @@ const products = [
     {
         "name": "Dada J P Vaswani",
         "releaseDate": "12.09.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "377100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Dada_JP_Vaswani_STAMP.jpg",
@@ -402,7 +392,7 @@ const products = [
     {
         "name": "High Court of Orissa",
         "releaseDate": "26.07.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301800",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/High_Court_Orissa_2023_STAMP.jpg",
@@ -422,7 +412,7 @@ const products = [
     {
         "name": "Sardar Antaji Mankeshwar Gandhe",
         "releaseDate": "04.07.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301900",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Gandhe_STAMP.jpg",
@@ -432,7 +422,7 @@ const products = [
     {
         "name": "Raj Bhavan, Uttar Pradesh",
         "releaseDate": "20.06.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301800",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/UP-RajBhwaan_Stamp.jpg",
@@ -442,7 +432,7 @@ const products = [
     {
         "name": "SCO Council of Heads of State",
         "releaseDate": "15.06.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "203100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/SCO_Stamp.jpg",
@@ -452,7 +442,7 @@ const products = [
     {
         "name": "Parliament Complex",
         "releaseDate": "28.05.2023",
-        "denomination": "7500p",
+        "denomination": "7500 p",
         "quantity": "209600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Parliament_Complex_Stamp.jpg",
@@ -462,7 +452,7 @@ const products = [
     {
         "name": "250th Birth Anniversary of Raja Ram Mohan Roy",
         "releaseDate": "22.05.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Raja_Ram_Mohan_Roy_Stamp.jpg",
@@ -472,7 +462,7 @@ const products = [
     {
         "name": "Mann Ki Baat",
         "releaseDate": "26.04.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302400",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Mann_Ki_Baat_stamp.jpg",
@@ -482,7 +472,7 @@ const products = [
     {
         "name": "75th Year of Indian Army Day",
         "releaseDate": "19.04.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302005",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/75th_Year_of_Indian_Army_Day_Stamp.jpg",
@@ -492,7 +482,7 @@ const products = [
     {
         "name": "Dayanand Saraswati",
         "releaseDate": "07.04.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Dayanand%20Saraswati%20STAMP.jpg",
@@ -502,7 +492,7 @@ const products = [
     {
         "name": "GauhatiHigh Court",
         "releaseDate": "05.04.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Gauhati_High_Court_STAMP.jpg",
@@ -542,7 +532,7 @@ const products = [
     {
         "name": "International Year of Millets (Shree Anna)",
         "releaseDate": "18.03.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303700",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/International_Year_of_Millets_STAMP.jpg",
@@ -552,7 +542,7 @@ const products = [
     {
         "name": "75 Years of India - Luxembourg Friendship",
         "releaseDate": "14.03.2023",
-        "denomination": "2500 p, 2500p",
+        "denomination": "2500 p, 2500 p",
         "quantity": "116000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/75_Years_of_India_Luxembourg_Friendship_Souvenir_Sheet.png",
@@ -562,7 +552,7 @@ const products = [
     {
         "name": "75 Years of 1 Central Base Post Office",
         "releaseDate": "01.03.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "202000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/1CBPO-Stamp.jpg",
@@ -572,7 +562,7 @@ const products = [
     {
         "name": "225 Glorious Years 2nd Battalion The Parachute Regiment (Special Forces)",
         "releaseDate": "24.02.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301850",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/225_Glorious_%20Years_STAMP.jpg",
@@ -582,7 +572,7 @@ const products = [
     {
         "name": "Rao Birender Singh",
         "releaseDate": "20.02.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301805",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/RAO_BIRENDER_SINGH_STAMP.jpg",
@@ -592,7 +582,7 @@ const products = [
     {
         "name": "Geographical Indications: Agricultural Goods",
         "releaseDate": "13.02.2023",
-        "denomination": "500p(12)",
+        "denomination": "500 p(12)",
         "quantity": "111000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Geographical_Indications_Agricultural_Goods_STAMP.jpg",
@@ -602,7 +592,7 @@ const products = [
     {
         "name": "Bridal Costumes of India",
         "releaseDate": "12.02.2023",
-        "denomination": "2500p(8)",
+        "denomination": "2500 p(8)",
         "quantity": "111000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Bridal_Costume_STAMP1.jpg",
@@ -612,7 +602,7 @@ const products = [
     {
         "name": "Azadi Ka Amrit Mahotsav",
         "releaseDate": "11.02.2023",
-        "denomination": "500p (2)",
+        "denomination": "500 p (2)",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Amrit%20Mahotsav%20Stamp.jpg",
@@ -622,7 +612,7 @@ const products = [
     {
         "name": "General K. S. Thimayya",
         "releaseDate": "04.02.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302005",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/General_K_S_Thimayya_STAMP.jpg",
@@ -632,7 +622,7 @@ const products = [
     {
         "name": "150th Birth Anniversary of Ram Chandra Maharaj",
         "releaseDate": "02.02.2022",
-        "denomination": "1500p",
+        "denomination": "1500 p",
         "quantity": "327600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Ramchandra_Maharaja_STAMP.jpg",
@@ -652,7 +642,7 @@ const products = [
     {
         "name": "Major Durga Mall",
         "releaseDate": "23.01.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302850",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Major_Durga_Mall_STAMP.jpg",
@@ -662,7 +652,7 @@ const products = [
     {
         "name": "Surakshit Jayen Prashishit Jayen",
         "releaseDate": "09.01.2023",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "266600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/2023/Surakshit_Jayen_Prashishit_Jayen_STAMP.jpg",
@@ -672,7 +662,7 @@ const products = [
     {
         "name": "Visamanbapu",
         "releaseDate": "31.12.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Visamanbapu_STAMP.jpeg",
@@ -682,7 +672,7 @@ const products = [
     {
         "name": "125 Years Sardar School Jodhpur",
         "releaseDate": "13.12.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/125_Years_Sardar_School_%20Jodhpur_STAMP.jpg",
@@ -702,7 +692,7 @@ const products = [
     {
         "name": "Pa Togan Nengminza Sangma",
         "releaseDate": "12.12.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "304000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Pa_Togan_Nengminza_Sangma_STAMP.jpg",
@@ -712,7 +702,7 @@ const products = [
     {
         "name": "175 Years of IIT Roorkee",
         "releaseDate": "25.11.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "303200",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/IIT_ROORKEE_STAMP.jpg",
@@ -722,7 +712,7 @@ const products = [
     {
         "name": "Platinum Jubilee Assam Medical College",
         "releaseDate": "03.11.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "211600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Assam_Medical_College_2022_STAMP.jpg",
@@ -732,7 +722,7 @@ const products = [
     {
         "name": "150th Birth Anniversary of Vijay Vallabh Surishwer",
         "releaseDate": "26.10.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "451600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Vijay_Vallabh_Suri_STAMP.jpg",
@@ -742,7 +732,7 @@ const products = [
     {
         "name": "90th General Assembly of INTERPOL",
         "releaseDate": "18.10.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "305100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/INTERPOL_STAMP.jpg",
@@ -752,7 +742,7 @@ const products = [
     {
         "name": "Golden Jubilee of Pincode",
         "releaseDate": "12.10.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/STAMP_GOLDEN_JUB_PINCODE.jpg",
@@ -762,7 +752,7 @@ const products = [
     {
         "name": "Sawai Gandharva",
         "releaseDate": "11.10.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "212350",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/STAMP_Sawai_Gandharwa.jpeg",
@@ -772,7 +762,7 @@ const products = [
     {
         "name": "2nd International Tiger Forum",
         "releaseDate": "01.09.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301875",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/TigerStamp2022.jpg",
@@ -782,7 +772,7 @@ const products = [
     {
         "name": "Ondiveeran",
         "releaseDate": "20.08.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "203700",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Ondiveeran_STAMP.jpeg",
@@ -792,7 +782,7 @@ const products = [
     {
         "name": "Journey of the National Flag",
         "releaseDate": "02.08.2022",
-        "denomination": "7500p",
+        "denomination": "7500 p",
         "quantity": "200000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/JNF_STAMP.jpg",
@@ -802,7 +792,7 @@ const products = [
     {
         "name": "Right to free Legal Aid",
         "releaseDate": "30.07.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/RFLA_STAMP.jpg",
@@ -812,7 +802,7 @@ const products = [
     {
         "name": "44th FIDE Chess Olympiad Chennai 2022",
         "releaseDate": "20.07.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/CHESS_STAMP.jpg",
@@ -822,7 +812,7 @@ const products = [
     {
         "name": "KARPATRI MAHARAJ",
         "releaseDate": "29.06.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/KM_STAMP.jpg",
@@ -832,7 +822,7 @@ const products = [
     {
         "name": "MUMBAI SAMACHAR",
         "releaseDate": "14.06.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/MS%20Stamp.jpg",
@@ -852,7 +842,7 @@ const products = [
     {
         "name": "Prakash GuruParab Sri Guru Tegh Bahadur Sahib Ji",
         "releaseDate": "21.04.2022",
-        "denomination": "2500p",
+        "denomination": "2500 p",
         "quantity": "504000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/GTBS%20Stamp.jpg",
@@ -862,7 +852,7 @@ const products = [
     {
         "name": "PANDURANG  VAMAN KANE",
         "releaseDate": "18.04.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302200",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/PVK%20Stamp.jpg",
@@ -872,7 +862,7 @@ const products = [
     {
         "name": "India and Turkmenistan - 30 Years of Partnership",
         "releaseDate": "03.04.2022",
-        "denomination": "2500p",
+        "denomination": "2500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Ind_Turk%20Stamp.jpg",
@@ -882,7 +872,7 @@ const products = [
     {
         "name": "36th  INTERNATIONAL GEOLOGICAL CONGRESS",
         "releaseDate": "20.03.2022",
-        "denomination": "500p,1000p",
+        "denomination": "500 p,1000p",
         "quantity": "311100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/IGC%20Stamp.jpg",
@@ -892,7 +882,7 @@ const products = [
     {
         "name": "RASHTRIYA INDIAN MILITARY COLLEGE, DEHRADUN",
         "releaseDate": "13.03.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "402945",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/RIMC%20Stamp.jpg",
@@ -902,7 +892,7 @@ const products = [
     {
         "name": "President Fleet Review 2022 visakhapatnam",
         "releaseDate": "21.02.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302250",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/VSKP%20Stamp.jpg",
@@ -912,7 +902,7 @@ const products = [
     {
         "name": "50 Years of Arunachal Pradesh",
         "releaseDate": "20.02.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "404225",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Ar%20Stamp.jpg",
@@ -922,7 +912,7 @@ const products = [
     {
         "name": "Joint celebrations of the year of 50th Anniversary of UAE's formation and the 75th Anniversary of the Independence of India",
         "releaseDate": "18.02.2022",
-        "denomination": "2500p",
+        "denomination": "2500 p",
         "quantity": "302400",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/India%20UAE%20Stamp.jpg",
@@ -932,7 +922,7 @@ const products = [
     {
         "name": "Delhi Police - Platinum Jubilee",
         "releaseDate": "16.02.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "500000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Delhi%20Police%20Stamp.jpg",
@@ -942,7 +932,7 @@ const products = [
     {
         "name": "50th Anniversary of ICRISAT",
         "releaseDate": "05.02.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "309500",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/ICRISAT%20Stamp.jpg",
@@ -952,7 +942,7 @@ const products = [
     {
         "name": "50 years of full statehood of Tripura",
         "releaseDate": "21.01.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "305100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Stamp%20Tripura.jpg",
@@ -962,7 +952,7 @@ const products = [
     {
         "name": "50 years of full statehood of Meghalaya",
         "releaseDate": "21.01.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "305100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Stamp%20Meghalaya.jpg",
@@ -972,7 +962,7 @@ const products = [
     {
         "name": "50 years of full statehood of Manipur",
         "releaseDate": "21.01.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "305100",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Stamp%20Manipur.jpg",
@@ -982,7 +972,7 @@ const products = [
     {
         "name": "Department of Health Research",
         "releaseDate": "16.01.2022",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "301920",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/ICMR%20Stamp.jpg",
@@ -992,7 +982,7 @@ const products = [
     {
         "name": "PERMANENT COMMISSION TO WOMEN OFFICERS IN INDIAN ARMY",
         "releaseDate": "15.01.2022",
-        "denomination": "1000p,1500p",
+        "denomination": "1000p,1500 p",
         "quantity": "202450",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/PCWOIA%20Stamp.jpg",
@@ -1002,7 +992,7 @@ const products = [
     {
         "name": "SWARNIM VIJAY VARSH",
         "releaseDate": "16.12.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302400",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/SWARNIM_VIJAY_VARSH_Stamp.jpg",
@@ -1022,7 +1012,7 @@ const products = [
     {
         "name": "S.C.B. MEDICAL COLLEGE & HOSPITAL, CUTTACK",
         "releaseDate": "27.11.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302980",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/SCB_Medical_College_Stamp.jpg",
@@ -1032,7 +1022,7 @@ const products = [
     {
         "name": "DATTOPANT THENGADI",
         "releaseDate": "10.11.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/dattopant_thengadi_stamp.jpg",
@@ -1042,7 +1032,7 @@ const products = [
     {
         "name": "DECCAN COLLEGE BICENTENARY",
         "releaseDate": "06.10.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "307157",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/DECCAN_COLLEGE_BICENTENARY_Stamp.jpg",
@@ -1052,7 +1042,7 @@ const products = [
     {
         "name": "Solapur martyrs:  Mallappa Dhanshetti, Shrikisan Sarada, Jagannath Shinde and Abdul Rasul Kurban Hussain",
         "releaseDate": "02.10.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "302400",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/solapur_martyrs.jpg",
@@ -1062,7 +1052,7 @@ const products = [
     {
         "name": "Rao Jaimal Rathore",
         "releaseDate": "17.09.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "201600",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/RAOJaimal.jpg",
@@ -1072,7 +1062,7 @@ const products = [
     {
         "name": "Ma. CHAMAN LAL",
         "releaseDate": "07.08.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "172230",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/stamp_chaman_lal.jpg",
@@ -1082,7 +1072,7 @@ const products = [
     {
         "name": "Golden Jubilee Year -  Gayatri Teerth, Shantikunj",
         "releaseDate": "20.06.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "402525",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/gayatri_teerth_shantikunj_stamp.jpg",
@@ -1092,7 +1082,7 @@ const products = [
     {
         "name": "70 Years of Diplomatic relations between India and Germany",
         "releaseDate": "10.06.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "352400",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/stamp_india_germany.jpg",
@@ -1102,7 +1092,7 @@ const products = [
     {
         "name": "Rajyogini Dadi Janki",
         "releaseDate": "12.04.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "804450",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Janki.jpeg",
@@ -1112,7 +1102,7 @@ const products = [
     {
         "name": "Golden Jubilee Year of India Bangladesh Friendship",
         "releaseDate": "27.03.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "504000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/High_Res_Stamp.jpg",
@@ -1122,7 +1112,7 @@ const products = [
     {
         "name": "100 Years of First Visit of Mahatma Gandhi to Odisha",
         "releaseDate": "23.03.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "504000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/STMP_odisha.jpg",
@@ -1132,7 +1122,7 @@ const products = [
     {
         "name": "The High Court Of Gujarat",
         "releaseDate": "06.02.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "416900",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/stamp_Gujrat%20High%20Court_diamond_Jubilee.jpg",
@@ -1142,7 +1132,7 @@ const products = [
     {
         "name": "50 Years of full Statehood of Himachal Pradesh",
         "releaseDate": "25.01.2021",
-        "denomination": "500p",
+        "denomination": "500 p",
         "quantity": "403825",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/Stamp_50%20Years%20of%20Full%20Statehood%20of%20HP.jpg",
@@ -1152,7 +1142,7 @@ const products = [
     {
         "name": "125th Birth Anniversary Year of Netaji Subhas Chandra Bose",
         "releaseDate": "23.01.2021",
-        "denomination": "2500p",
+        "denomination": "2500 p",
         "quantity": "504000",
         "printer": "Security Printing Press, Hyderabad",
         "stampImage": "https://postagestamps.gov.in/Uploads/stamp_netaji_08022021.jpg",

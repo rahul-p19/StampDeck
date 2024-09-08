@@ -11,9 +11,10 @@ function Navbar() {
 				</Link>
 				<nav className="flex gap-x-14 justify-between text-accent text-xl font-inter font-semibold">
 					<Link to="market" className="relative after:bg-secondary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer">Buy Products</Link>
-					<HashLink to="/#about" className="relative after:bg-secondary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">About</HashLink>
+					<HashLink to="/#about" className="relative after:bg-secondary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">About Us</HashLink>
 					<HashLink to="/#contact" className="relative after:bg-secondary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer">Contact Us</HashLink>
-					<Link to="profile" className="text-2xl hover:text-primary"><FaUser/></Link>
+					{/* <Link to="profile" className="text-2xl hover:text-primary"><FaUser/></Link> */}
+					<p className="text-2xl hover:text-primary"><FaUser/></p>
 				</nav>
 			</div>
 		</>

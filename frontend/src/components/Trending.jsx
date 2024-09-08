@@ -17,7 +17,7 @@ export default function Trending(){
       speed={800}
       longSwipes={false}
     >
-      {products.filter((prod)=>prod.trending).map((prod, ind)=><SwiperSlide key={ind}>
+      {products.filter((prod,ind)=>ind>=3 && ind <6).map((prod, ind)=><SwiperSlide key={ind}>
         <ProductCard  props={prod}/>
       </SwiperSlide>)}
     </Swiper>

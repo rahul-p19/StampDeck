@@ -17,7 +17,7 @@ export default function Releases(){
       speed={800}
       longSwipes={false}
     >
-      {products.filter((prod)=>prod.latest).map((prod, ind)=><SwiperSlide key={ind}>
+      {products.filter((prod,ind)=>ind<3).map((prod, ind)=><SwiperSlide key={ind}>
         <ProductCard props={prod}/>
       </SwiperSlide>)}
     </Swiper>
