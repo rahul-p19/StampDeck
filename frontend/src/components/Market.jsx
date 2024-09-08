@@ -29,7 +29,7 @@ function Market() {
 			</div>
       </Suspense>
 			<nav
-				className="flex items-center justify-between border-t border-gray-200 sm:px-6 w-1/3"
+				className="flex items-center justify-between border-t border-gray-200 sm:px-6 w-2/5"
 				aria-label="Pagination">
 				<div className="hidden sm:block font-worksans">
 					<p className="text-lg text-primary font-medium">
@@ -38,7 +38,7 @@ function Market() {
 						<span className="font-semibold">{products.length}</span> results
 					</p>
 				</div>
-				<div className="flex justify-around w-1/3">
+				<div className="flex justify-around w-2/5">
 					<button
 						onClick={()=>{setPageNum(prev=>prev-1)}}
 						className="bg-accent text-background px-2 py-1 rounded-sm"
