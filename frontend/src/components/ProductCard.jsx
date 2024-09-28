@@ -9,7 +9,7 @@ export default function ProductCard({ props }) {
 
 	return (
 		<div>
-			<div className="w-full h-[70vh] relative rounded-sm overflow-hidden max-w-md mx-auto p-8 my-10 bg-secondary">
+			<div className="w-full h-[80vh] relative rounded-sm overflow-hidden max-w-md mx-auto p-8 my-10 bg-secondary">
 				<div className="relative z-10 flex flex-col justify-between h-full pt-6">
 					<Lens hovering={hovering} setHovering={setHovering}>
 						<img src={props.fdcImage} alt={props.name} width={500} />
@@ -21,6 +21,19 @@ export default function ProductCard({ props }) {
 						<div className="flex justify-between text-xl font-semibold">
 							<p>&#8377;{price}</p>
 							<p>{props.releaseDate}</p>
+						</div>
+					</div>
+					<div className="flex justify-between">
+						<button className="text-background bg-accent rounded-sm px-2 py-1 font-worksans">Add to Cart</button>
+						<div>
+						<label htmlFor={`${props.name}quantity`} className="p-1 text-text font-medium font-worksans text-lg">Quantity: </label>
+						<select name={`${props.name}quantity`} className="p-0.5 rounded-sm outline-none bg-background font-worksans text-center">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
 						</div>
 					</div>
 				</div>

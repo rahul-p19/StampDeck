@@ -25,9 +25,9 @@ function Footer() {
         <h2 className="text-2xl font-inter font-semibold">Explore</h2>
         <nav className="flex flex-col items-center font-worksans h-2/3 justify-around text-lg mb-4">
           <HashLink to="/#navbar" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">Home</HashLink>
-          <HashLink to="/#about" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">About</HashLink>
-          <HashLink to="/#contact" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">Contact Us</HashLink>
           <HashLink to="/market" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">Buy Products</HashLink>
+          <HashLink to="/#about" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">Community</HashLink>
+          <HashLink to="/#contact" className="relative after:bg-secondary after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 cursor-pointer">Contact Us</HashLink>
         </nav>
       </div>
     </footer>

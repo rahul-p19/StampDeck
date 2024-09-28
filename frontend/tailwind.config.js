@@ -10,7 +10,7 @@ export default {
         'text': '#050315',
         'background': '#ffecb5',
         'primary': '#780116',
-        'secondary': '#f7b438c5',
+        'secondary': '#f7b438',
         'accent': '#c32f27',
        },
        fontFamily: {
