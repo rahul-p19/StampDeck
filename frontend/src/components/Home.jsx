@@ -29,15 +29,15 @@ function CommunityDescription() {
 			<div className="grid grid-cols-3 gap-12 place-content-center">
 				<div className="flex flex-col gap-y-2">
 					<h2 className="font-inter text-primary font-semibold text-xl text-center">Create and Read Posts</h2>
-					<p className="text-accent font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
+					<p className="text-accent text-justify font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
 				</div>
 				<div className="flex flex-col gap-y-2">
 					<h2 className="font-inter text-primary font-semibold text-xl text-center">Follow different categories</h2>
-					<p className="text-accent font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
+					<p className="text-accent text-justify font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
 				</div>
 				<div className="flex flex-col gap-y-2">
 					<h2 className="font-inter text-primary font-semibold text-xl text-center">Trade stamps</h2>
-					<p className="text-accent font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
+					<p className="text-accent text-justify font-worksans font-medium p-4 pl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quod cupiditate repudiandae necessitatibus eveniet ratione omnis repellat provident itaque quaerat vero, minus impedit sit!</p>
 				</div>
 			</div>
 		</div>
