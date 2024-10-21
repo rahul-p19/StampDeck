@@ -30,6 +30,8 @@ DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = ['8000-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev', 'localhost', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = [
+    'http://127.0.0.1:8000',  # Allow local testing
+    'http://localhost:8000',
     'https://8000-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev'
 ]
 
@@ -45,6 +47,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'corsheaders',
+
+    # created apps
+    'contact',
 ]
 
 MIDDLEWARE = [

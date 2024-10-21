@@ -3,6 +3,6 @@ __pycache__
 .vscode
 env/
 .env
-*.idx
-.venv
+.idx/
+.venv/
 node_modules/
