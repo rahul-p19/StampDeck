@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 px-1.5">
             <span className="sr-only">StampDeck</span>
-            <img alt="logo" src="stampdeck-logo-sih.png" className="h-16 w-auto" />
+            <img alt="logo" src="/assets/stampdeck-logo-sih.png" className="h-16 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
