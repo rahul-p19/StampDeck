@@ -1,6 +1,6 @@
 # **StampDeck**
 
-![screenshot](https://ibb.co/JdRYM5D)
+![screenshot](https://i.ibb.co/X4ZnvSc/Picture1.png)
 A national web community for philatelists, designed to fulfill all their stamp-collecting needs.
 
 ## **Contributing Guide**
