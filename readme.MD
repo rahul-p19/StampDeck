@@ -1,59 +1,120 @@
-# StampDeck
+# **StampDeck**
 
-Building a national web community for philatelists, for all their stamp collecting needs.
+A national web community for philatelists, designed to fulfill all their stamp-collecting needs.
 
-> The following are detailed steps for contributing, to the best of my knowledge. Please let me know if I've missed something. Feel free to consult if needed.
+## **Contributing Guide**
 
-## Steps to get the project running on your machine
+> The following steps outline the process of setting up and contributing to this project. Please reach out if you encounter any issues or if additional clarification is needed.
 
-> Step 0: Ensure that you have git, node and npm installed on your machine
+### **Getting Started: Running the Project Locally**
 
-> 1. Create a fork
+**Prerequisites**
 
-> 2. Get the link to your fork from the code section of your repo. You'll see a green color code button, click on that and copy the https link
+- Ensure that you have the following installed:
+  - `git`
+  - `node` (version 16+)
+  - `npm` (Node Package Manager)
+  - `Python 3.8+`
+  - `pip` (Python Package Installer)
 
-> 3. Open terminal on your machine and cd to the folder you want the project in. Run the following command. In case someone else has made some commits to the main repo, make sure you sync your fork before doing this.
+#### **Step 1: Fork and Clone the Repository**
 
-```sh
- git clone <link-to-your-fork> 
-```
+1. **Fork** the repository to create your copy.
+2. **Copy the link to your fork**:
+   - Go to your forked repository’s code section and click the green **Code** button. Copy the HTTPS link.
+3. Open your terminal and navigate to the desired directory where you’d like to clone the project.
+4. Run the following command, making sure to sync your fork if there have been new commits to the main repo:
 
-> 4. If you're already in StampDeck and see 2 folders- frontend and backend on runnning ls or dir, ignore this step. Else, 
+    ```sh
+    git clone <link-to-your-fork>
+    ```
 
-```sh
-cd StampDeck
-```
+5. **Navigate to the StampDeck directory** (if not already in it):
 
-> 5. To run frontend, 
+    ```sh
+    cd StampDeck
+    ```
 
-```sh
-cd frontend
+#### **Step 2: Setting Up the Frontend**
 
-npm install
+1. Navigate to the frontend directory:
 
-npm run dev 
-```
+    ```sh
+    cd frontend
+    ```
 
-> You'll see a localhost:5173 or something link in your terminal, click on that and the website should be running for you locally.
+2. Install dependencies:
 
-## Steps to push to repo after you've made your changes
+    ```sh
+    npm install
+    ```
 
-> Push to your own fork first unless you're 100% sure what you're doing.
+3. Start the frontend server in development mode:
 
-> Check that node_modules and other files that are not to be pushed are in your .gitignore, or deleted if you had created any temporary files.
+    ```sh
+    npm run dev
+    ```
 
-> In your terminal, in the StampDeck folder, 
+4. After running the command, a localhost link (e.g., `http://localhost:5173`) will appear in your terminal. Click on this link to view the frontend locally.
 
-```sh
-git add .
+#### **Step 3: Setting Up the Backend**
 
-git commit -m "this is my commit message"
-```
+1. In the main `StampDeck` directory, navigate to the `backend` folder:
 
-> Keep the commit message useful and informative
+    ```sh
+    cd ../backend
+    ```
 
-```sh
-git push <link-to-your-fork>
-```
+2. Create and activate a virtual environment:
 
+    ```sh
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    ```
 
+3. Install the backend dependencies:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. Set up environment variables if required by creating a `.env` file. Populate it with variables for the database, JWT secrets, and any API keys (such as Razorpay, Twilio, and Discourse).
+
+5. Run database migrations to set up the required tables:
+
+    ```sh
+    python manage.py migrate
+    ```
+
+6. Start the backend server:
+
+    ```sh
+    python manage.py runserver
+    ```
+
+7. The backend should now be running on `http://localhost:8000`. If both frontend and backend are correctly configured, they should communicate seamlessly.
+
+---
+
+### **Committing and Pushing Changes**
+
+1. **Push to your own fork** unless you're confident in pushing directly to the main repo.
+2. Verify that `node_modules` and any other temporary files are correctly included in `.gitignore` and are not staged for commit.
+3. From the main `StampDeck` folder, stage and commit your changes:
+
+    ```sh
+    git add .
+    git commit -m "Descriptive commit message about changes made"
+    ```
+
+4. Push your changes to your fork:
+
+    ```sh
+    git push origin <branch-name>
+    ```
+
+> **Tip**: Use clear, informative commit messages to make reviewing changes easier for everyone.
+
+---
+
+**By following these steps, you should have the project running locally with a secure setup for both frontend and backend development.**
