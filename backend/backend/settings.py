@@ -32,9 +32,16 @@ ALLOWED_HOSTS = ['8000-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000',  # Allow local testing
     'http://localhost:8000',
-    'https://8000-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev'
+    'https://8000-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev',
+    'https://5174-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev',
+    'https://5173-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev'
 ]
-
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:5173',
+#     'https://5173-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev',
+#     'https://5174-idx-stampdeck-1725474623254.cluster-mwrgkbggpvbq6tvtviraw2knqg.cloudworkstations.dev',
+# ]
+# CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -51,8 +58,13 @@ INSTALLED_APPS = [
     # created apps
     'contact',
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ]}
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -60,8 +72,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
