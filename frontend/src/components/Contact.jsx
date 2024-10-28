@@ -1,112 +1,7 @@
-// import React, {useState} from "react";
-// function Contact() {
-// 	const baseUrl = import.meta.env.VITE_BASE_URL;
-// 	// console.log("baseUrl",baseUrl);
-// 	const [name,setName] = useState("");
-// 	const [email,setEmail] = useState("");
-// 	const [message, setMessage] = useState("");
-
-// 	const getCSRFToken = () => {
-//         let csrfToken = null;
-//         const cookies = document.cookie.split(';');
-//         cookies.forEach(cookie => {
-//             if (cookie.trim().startsWith('csrftoken=')) {
-//                 csrfToken = cookie.split('=')[1];
-//             }
-//         });
-//         return csrfToken;
-//     };
-
-// 	const handleFormSubmit = (e) => {
-// 		e.preventDefault();
-// 		fetch(`${baseUrl}/contact/contacts`,{
-// 			method: "POST",
-// 			headers: {
-//                 'Content-Type': 'application/json',
-//                 'X-CSRFToken': getCSRFToken() // Add CSRF token in headers
-//             },
-// 			body: JSON.stringify({name,email,message})
-// 		})
-// 		.then(res=>console.log(res))
-// 		.catch((err)=>console.log(err));
-// 		setName("");
-// 		setEmail("");
-// 		setMessage("");
-// 	}
-
-// 	return (
-// 		<div
-// 			className="h-[80vh] max-w-full bg-background flex flex-col items-center my-6"
-// 			id="contact">
-// 			<div className="text-center">
-// 				<h2 className="text-5xl font-inter font-bold bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
-// 					Contact Us
-// 				</h2>
-// 			</div>
-// 			<form className="w-1/4 h-1/2 mt-10 text-lg" onSubmit={(e)=>handleFormSubmit(e)}>
-// 				<div className="flex flex-col justify-around h-full">
-// 					<div className="name">
-// 						<div className="mt-2.5 ">
-// 							<input
-// 								type="text"
-// 								name="name"
-// 								id="name"
-// 								placeholder="Name"
-// 								className="w-full px-2 py-1 font-worksans placeholder:font-worksans text-primary placeholder-primary outline-none border-b border-b-primary bg-transparent"
-// 								value={name}
-// 								onChange={(e)=>setName(e.target.value)}
-// 							/>
-// 						</div>
-// 					</div>
-
-// 					<div className="mt-2.5 ">
-// 						<input
-// 							type="text"
-// 							name="email"
-// 							id="email"
-// 							placeholder="Email Address"
-// 							className="w-full px-2 py-1 text-primary placeholder-primary font-worksans placeholder:font-worksans outline-none border-b border-b-primary bg-transparent"
-// 							value={email}
-// 							onChange={(e)=>setEmail(e.target.value)}
-// 						/>
-// 					</div>
-
-// 					<div className="feedback">
-// 						<div className="mt-2.5">
-// 							<textarea
-// 								name="message"
-// 								placeholder="Send a Message"
-// 								className="w-full px-4 py-4
-//                        text-primary placeholder-primary font-worksans placeholder:font-worksans outline-none bg-transparent border-b border-b-primary"
-// 								rows="4"
-// 								value={message}
-// 								onChange={(e)=>setMessage(e.target.value)}>
-
-// 								</textarea>
-// 						</div>
-
-// 						<div className="sm:col-span-2 flex justify-center mt-10">
-// 							<button
-// 								type="submit"
-// 								className="text-lg px-2 py-1 text-white
-//                     bg-accent rounded-sm cursor-pointer font-worksans">
-// 								Submit
-// 							</button>
-// 						</div>
-// 					</div>
-// 				</div>
-// 			</form>
-// 		</div>
-// 	);
-// }
-
-// export default Contact;
-
-
 import React, {useState} from "react";
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
-export default function Example() {
+export default function Contact() {
 	const baseUrl = import.meta.env.VITE_BASE_URL;
 	const [name,setName] = useState("");
 	const [email,setEmail] = useState("");
@@ -140,7 +35,7 @@ export default function Example() {
 		setMessage("");
 	}
   return (
-    <div className="relative bg-background">
+    <div className="relative bg-background font-worksans text-text">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-background" />
       </div>
@@ -173,7 +68,11 @@ export default function Example() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <MailIcon className="flex-shrink-0 h-6 w-6" aria-hidden="true" />
-                  <span className="ml-3">directorphilately@indiapost.gov.in</span>
+                  <span className="ml-3">
+                    <a href="mailto:directorphilately@indiapost.gov.in" className="">
+                      directorphilately@indiapost.gov.in
+                    </a>
+                  </span>
                 </dd>
               </div>
             </dl>

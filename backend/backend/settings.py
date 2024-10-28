@@ -158,3 +158,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, '../frontend/dist/assets')]
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+RECAPTCHA_SECRET_KEY = config('RECAPTCHA_SECRET_KEY')
