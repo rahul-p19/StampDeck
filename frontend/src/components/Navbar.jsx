@@ -90,7 +90,7 @@ export default function Navbar() {
               </div>
             </PopoverPanel>
           </Popover>
-          <a href="#" className="text-lg font-semibold leading-6 text-background font-inter">
+          <a href="/contactus" className="text-lg font-semibold leading-6 text-background font-inter">
             Contact Us
           </a>
           <a href="#" className="text-lg font-semibold leading-6 text-background font-inter">
@@ -98,7 +98,7 @@ export default function Navbar() {
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-lg font-semibold leading-6 text-background">
+          <a href="/login" className="text-lg font-semibold leading-6 text-background">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -110,8 +110,8 @@ export default function Navbar() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt="logo"
+                src="/assets/stampdeck-logo-sih.png"
                 className="h-8 w-auto"
               />
             </a>
@@ -146,7 +146,7 @@ export default function Navbar() {
                   </DisclosurePanel>
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/contactus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
@@ -160,7 +160,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in

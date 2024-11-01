@@ -17,6 +17,12 @@ class Customer(models.Model):
     phone = models.CharField(max_length=20, blank=True)
     address = models.CharField(max_length=200, blank=True)
     pda_no = models.IntegerField(blank=True, null=True)
+    password = models.CharField(max_length=255, default='Abcd@1234')
+
+    def save(self, *args, **kwargs):
+        if not self.password.startswith('pbkdf2'):
+            self.password = make_password(self.password)
+        super().save(*args, **kwargs)
 
 
 class Order(models.Model):
